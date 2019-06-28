@@ -56,7 +56,7 @@ $_SESSION['dados_iguais'];
 						<fieldset>
 						
 						<label for="imagem">Imagem:</label><br>
-						<img src="tratar_imagem_perfil.php?id=<?php echo $results[0]['id_utilizador']; ?>" width="300" height="300" />
+						<img style="width:100%" src="tratar_imagem_perfil.php?id=<?php echo $results[0]["id_utilizador"]; ?>" />
                         <input type="file" name="imagem"/>
                         <br/>
 						

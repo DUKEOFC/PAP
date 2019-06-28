@@ -10,6 +10,7 @@ $utilizador = new Utilizador();
 $utilizador->setIdUtilizador($idUtilizador);
 $results = $utilizador->loadById();
 
+header("Content-type: image/jpg");
 echo $results[0]['imagem'];
 
 ?>
