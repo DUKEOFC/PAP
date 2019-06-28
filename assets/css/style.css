@@ -1,0 +1,102 @@
+
+/* CSS do Login e do Register */
+
+body{
+	background-image: url('https://media.giphy.com/media/fVY0d5fm6UnPG/giphy.gif');
+    background-size: cover;
+}
+#frm_base{
+	border: 1px solid red;
+	width: 80%;
+	border-radius: 10px;
+	margin: 0 auto;
+	background: white;
+	padding: 50px;	
+}
+
+#table_base{
+	width:100%;
+}
+
+#div_contatos{
+	position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 30%;
+    height: 70%;
+}
+
+#login_btn{
+	color: white;
+	background: green;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+#register_btn{
+	color: white;
+	background: blue;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+#backlog_btn{
+	color: white;
+	background: green;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+.alinhar_direita{
+	text-align: right;
+}
+
+.padding_top{
+	padding-top: 30px;
+}
+
+.frm_log_resg{
+	width: 20% !important;
+}
+
+/* Menu */
+
+.menu-bar {
+    position: absolute;
+    top: 20px;    
+    left: 50%;
+    height: 14px;
+    margin-left: -10px;
+}
+
+.bars {
+    display: block;
+    width: 20px;
+    height: 3px;    
+    background-color: #333;
+    box-shadow: 0 5px 0 #333, 0 10px 0 #333;
+}
+
+.menu {
+    display: none; 
+    width: 100%;
+    padding: 30px 10px 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+.menu ul {
+    margin-bottom: 0;
+}
+.menu a {
+    color: #333; 
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.menu a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
