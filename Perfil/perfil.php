@@ -1,8 +1,9 @@
 <?php
-header('content-type: image/png');
 require_once ("../Config/config.php");
 require_once ("../Config/config-sessao.php");
 include("../Utilizador/Utilizador.php");
+
+header("Content-Type: image/gif");
 
 $idUtilizador = $_SESSION['id_utilizador'];
 isset($_GET['id_utilizador']) ? (int) $_GET['id_utilizador'] : null;
@@ -18,7 +19,7 @@ $disciplinas = $utilizador->loadAllDisciplina();
 $professores = $utilizador->loadAllProfessor();
 $results = $utilizador->loadById();
 
-$_SESSION['dados_iguais'];
+$_SESSION['dados_iguais'] = null;
 
 ?>
 <!DOCTYPE html>
@@ -46,7 +47,6 @@ $_SESSION['dados_iguais'];
 	    echo $_SESSION['dados_iguais'];
 	}
 	$_SESSION['dados_iguais'] = null;
-	$a=$results[0]['imagem'];
 	?>
     <table>
 		<tbody>
@@ -56,7 +56,7 @@ $_SESSION['dados_iguais'];
 						<fieldset>
 						
 						<label for="imagem">Imagem:</label><br>
-						<img style="width:100%" src="tratar_imagem_perfil.php?id=<?php echo $results[0]["id_utilizador"]; ?>" />
+						<img src="/PAP2/Uploads/<?php  echo $results[0]['id_utilizador']; ?>.jpeg" height="100" width="100">
                         <input type="file" name="imagem"/>
                         <br/>
 						

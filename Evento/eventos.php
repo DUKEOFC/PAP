@@ -27,44 +27,189 @@ require_once ("../Config/config-sessao.php");
     <br>
 	<br>
 	<br>	
-    <h2> LISBOAS GAMES WEEK </h2>
+    <P><i><u><b><h2> LISBOAS GAMES WEEK </h2></u>
 	<br>
 	<br>
 	<br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0lLNy7x0hoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div>
-	O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
-	</div>
-	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/0lLNy7x0hoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div>
-	O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
-	</div>
-	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/0lLNy7x0hoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div>
-	O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
-	</div>
-	
-	<h2> LAN PARTY </h2>
+	<u><font size="7">Videos e fotos dos Eventos</font></u>
+    <br>
+	<br>
+	<br>
+	<table border="2" width="100%"  bordercolor="red">
+	<tr>
+	<td><center><iframe width="560" height="315" src="https://www.youtube.com/embed/cgtKllqWFOs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td> 
+	<td><center><iframe width="560" height="315" src="https://www.youtube.com/embed/VHrW0EHwPlE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td> 
+	</tr> 
+	</table>
 	<br>
 	<br>
 	<br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0lLNy7x0hoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<ul class="slider">
+	<li>
+	<input type="radio" id="slide1" name="slide" checked>
+	<label for="slide1"></label>
+	<img src"1.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide2" name="slide" checked>
+	<label for="slide2"></label>
+	<img src"images/2.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide3" name="slide" checked>
+	<label for="slide3"></label>
+	<img src"images/3.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide4" name="slide" checked>
+	<label for="slide4"></label>
+	<img src"images/4.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide5" name="slide" checked>
+	<label for="slide5"></label>
+	<img src"images/5.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide6" name="slide" checked>
+	<label for="slide6"></label>
+	<img src"images/6.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide7" name="slide" checked>
+	<label for="slide7"></label>
+	<img src"images/7.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide8" name="slide" checked>
+	<label for="slide8"></label>
+	<img src"images/8.jpg/>
+	</li>
+	</ul>
+	<br>
+	<br>
+	<br>
     <div>
-	O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+    <h3>O evento da lisboa games week � um evento ao qual todas as turmas do curso de TGPSI v�o como visita de estudo,para que os alunos possam ter um dia mais descontraido a fazer aquilo que mais gostam ,jogar video jogos,� um dia bem passada onde os professores acompanham os alunos,mas d�o-lhes a maior liberdade para estarem a vontade.</h3>
 	</div>
-	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/0lLNy7x0hoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br>
+	<br>
+	<br>
+	<u><h2> LAN PARTY </h2></u>
+	<br>
+	<br>
+	<br>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2MuppeyPas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div>
-	O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+    <br>
+	<br>
+	<br>
+		<ul class="slider">
+	<li>
+	<input type="radio" id="slide1" name="slide" checked>
+	<label for="slide1"></label>
+	<img src"images/1.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide2" name="slide" checked>
+	<label for="slide2"></label>
+	<img src"images/2.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide3" name="slide" checked>
+	<label for="slide3"></label>
+	<img src"images/3.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide4" name="slide" checked>
+	<label for="slide4"></label>
+	<img src"images/4.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide5" name="slide" checked>
+	<label for="slide5"></label>
+	<img src"images/5.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide6" name="slide" checked>
+	<label for="slide6"></label>
+	<img src"images/6.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide7" name="slide" checked>
+	<label for="slide7"></label>
+	<img src"images/7.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide8" name="slide" checked>
+	<label for="slide8"></label>
+	<img src"images/8.jpg/>
+	</li>
+	</ul>
+	<br>
+	<br>
+	<br>
+    <h3>O evento da Lan Party � um evento</h3>
 	</div>
-	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/0lLNy7x0hoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br>
+	<br>
+	<br>
+	<u><h2> ROBOTICA </h2></u>
+	<br>
+	<br>
+	<br>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2MuppeyPas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div>
-	O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+    <br>
+	<br>
+	<br>
+			<ul class="slider">
+	<li>
+	<input type="radio" id="slide1" name="slide" checked>
+	<label for="slide1"></label>
+	<img src"images/1.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide2" name="slide" checked>
+	<label for="slide2"></label>
+	<img src"images/2.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide3" name="slide" checked>
+	<label for="slide3"></label>
+	<img src"images/3.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide4" name="slide" checked>
+	<label for="slide4"></label>
+	<img src"images/4.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide5" name="slide" checked>
+	<label for="slide5"></label>
+	<img src"images/5.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide6" name="slide" checked>
+	<label for="slide6"></label>
+	<img src"images/6.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide7" name="slide" checked>
+	<label for="slide7"></label>
+	<img src"images/7.jpg/>
+	</li>
+	<li>
+	<input type="radio" id="slide8" name="slide" checked>
+	<label for="slide8"></label>
+	<img src"images/8.jpg/>
+	</li>
+	</ul>
+	<br>
+	<br>
+	<br>
+    <h3>O evento da Lan Party � um evento</h3>
 	</div>
-	
    </center>   
    </div>
    

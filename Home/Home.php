@@ -30,9 +30,9 @@ require_once ("../Config/config-sessao.php");
 	<br>
 	<br>
 	<br>
-    <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ig45LhsUA3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
     <div>
-    <h3>Seja muito bem vindo ao nosso site no video a cima poderás ter uma breve informação sobre o que irás encontrar no nosso site espermos que gostes!</h3>
+    <h3>Ainda bem que te juntas-te a nós agora tens muito mais abas às quais podes aceder como a página de inscrição para o curso , feedback entre outras esperemos que gostes!</h3>
 	</div>
 	
    </center>   

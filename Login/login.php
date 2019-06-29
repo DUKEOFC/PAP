@@ -18,8 +18,9 @@ if (isset($_POST['btn-entrar'])) {
         if (count($results) > 0) {
             
             $results = $utilizador->login($username, $senha);
-			
+            echo 'ovo';
             if (count($results) == 1) {
+                echo 'ovo';
                 $dados = $results;
                 $_SESSION['logado'] = true;
                 $_SESSION['id_utilizador'] = $dados[0]['id_utilizador'];

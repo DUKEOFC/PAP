@@ -165,7 +165,7 @@ class Utilizador {
     public function login($username, $password) {
         
         $sql = new Sql();
-
+        echo md5($password);
         $results = $sql->select("SELECT * FROM  utilizador WHERE username = :USERNAME AND password = :PASSWORD", array(
             ":USERNAME"=>$username,
             ":PASSWORD"=>md5($password)

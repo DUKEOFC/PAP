@@ -21,13 +21,13 @@
     <br>
 	<br>
 	<br>	
-    <h2> LISBOAS GAMES WEEK </h2>
+    <h2> P�gina Principal </h2>
 	<br>
 	<br>
 	<br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0lLNy7x0hoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/b1-EZtS_38A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
     <div>
-	O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+    <h3>Seja muito bem vindo ao nosso site no video a cima poder�s ter uma breve informa��o sobre o que ir�s encontrar no nosso site espermos que gostes!</h3>
 	</div>
 	
    </center>   

@@ -8,7 +8,7 @@ $feedback = new Feed();
 $feedbacks = $feedback->loadAllFeedbacks();
 $utilizadorAtual = $_SESSION['id_utilizador'];
 //17 é o id do admin
-$_SESSION['admin'] = 17;
+$_SESSION['admin'] = 24;
 $admin = $_SESSION['admin'];
 
 if (isset($_POST['feedback'])) {
@@ -56,12 +56,14 @@ if (isset($_POST['feedback'])) {
      	<center><button type="submit" name="feedback">Comentar</button></center>
  	</form>
  	
-	<table id="table_base">
+	<table id="table_base" style="margin-top: 30px;
+    margin-left: 170px;">
 		<?php  
 		$u = new Utilizador();
 		foreach ($feedbacks as $feedback) {
             ?>
             <tr>
+            	<td><img src="/PAP2/Uploads/<?php  echo $feedback['utilizador_id']; ?>.jpeg" height="20" width="20"></td>
 				<td><?php echo  isset($feedback['utilizador_id'])?$u->loadByIdParam($feedback['utilizador_id'])[0]['username']:null ?></td>
 		
 				<td><?php echo $feedback['mensagem']?></td> 
